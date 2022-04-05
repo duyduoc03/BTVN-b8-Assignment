@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sesstion7.Assignment.listcontroller">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="493.0" prefWidth="625.0">
+         <children>
+            <Text layoutX="299.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Person List" />
+            <Button layoutX="522.0" layoutY="33.0" mnemonicParsing="false" onAction="#formScreen" text="Add" />
+            <TableView fx:id="tbView" layoutX="2.0" layoutY="91.0" prefHeight="367.0" prefWidth="603.0">
+               <columns>
+                  <TableColumn fx:id="cTen" prefWidth="182.0" text="Tên" />
+                  <TableColumn fx:id="cGia" prefWidth="124.0" text="Giá" />
+                  <TableColumn fx:id="cDonVi" text="Đơn vị" />
+                  <TableColumn fx:id="cSoLuong" prefWidth="81.0" text="Số Lượng" />
+                  <TableColumn fx:id="cEdit" minWidth="0.0" prefWidth="65.0" text="Amount" />
+                  <TableColumn fx:id="cDelete" prefWidth="69.0" text="Delete" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
